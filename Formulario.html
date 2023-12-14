@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="Formulario.css">
+ 
+</head>
+<body>
+    <!-- https://eliseovega.github.io/etiquetas_formularios.html# -->
+
+    <h1>FORMULARIO</h1>
+
+    <form action="enviar por correo" method="post">
+        
+        <ul>
+            
+          <li>
+            <label for="nombre"><b>Nombre</b></label>
+            <input type="text" id="nombre" name="nombre de usuario">
+          </li>    
+          
+          
+          <li>
+              <label for="mail"><b>Correo electrónico</b></label>
+              <input type="email" name="correo del usuario" id="mail">
+          </li>
+
+          
+          <li>
+              <label for="contraseña"><b>Contraseña</b></label>
+              <input type="password">
+          </li>
+        
+          
+          <li>
+            <label class="carerra"><b>Edad</b></label>
+            <select name="Carrera" id="select">
+                <option value="0" selected>Elija su edad</option>
+                <option value="2">18</option>
+                <option value="3">19</option>
+                <option value="4">20</option>
+                <option value="5">21</option>  
+            </select>
+          </li>
+          
+          
+          <li>
+            <label for="mensaje"><b>Mensaje</b></label>
+            <textarea name="mensaje" id="msg" cols="30" rows="10"></textarea>
+          </li>
+
+       
+          <li>
+            <button class="botón">Enviar formulario</button>
+            <button type="reset" class="botón">Borrar formulario</button>
+          </li>
+
+        </ul>      
+    
+    </form>
+
+
+
+</body>
+</html>
